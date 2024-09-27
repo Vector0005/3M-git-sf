@@ -1,7 +1,7 @@
 CREATE SCHEMA IF NOT EXISTS EMP.hrdata;
 
 -- Create Tables
-CREATE TABLE IF NOT EXISTS hrdata.employees
+CREATE TABLE IF NOT EXISTS hrdata.employees1
    ( employee_id NUMBER(6)
    , first_name VARCHAR(20)
    , last_name VARCHAR(25) NOT NULL
